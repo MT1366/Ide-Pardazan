@@ -1,8 +1,11 @@
 import { HiArrowLeft } from "react-icons/hi2";
+import { NavLink } from "react-router-dom";
 import { DateCalendar } from "@mui/x-date-pickers/DateCalendar";
+
 import CleaningItems from "./CleaningItems";
 import StartTime from "./StartTime";
 import PromoCode from "./PromoCode";
+import Button from "./Button";
 
 function Calendar() {
   return (
@@ -18,6 +21,9 @@ function Calendar() {
       <CleaningItems />
       <StartTime />
       <PromoCode />
+      <NavLink to="/addpromo">
+        <Button />
+      </NavLink>
     </div>
   );
 }

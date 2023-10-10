@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-import Button from "./Button";
 function PromoCode() {
   return (
     <>
@@ -9,9 +7,6 @@ function PromoCode() {
           +
         </button>{" "}
       </div>
-      <NavLink to="/location">
-        <Button />
-      </NavLink>
     </>
   );
 }

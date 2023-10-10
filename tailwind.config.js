@@ -7,12 +7,14 @@ export default {
       100: "100px",
       308: "308px",
       350: "350px",
+      360: "388px",
       390: "390px",
       664: "664px",
     },
     height: {
       58: "58px",
       84: "84px",
+      500: "300px",
       844: "844px",
     },
     colors: {
@@ -21,6 +23,8 @@ export default {
       "items-bg-primary": "#FBFFF1",
       "calendar-primary": "#e7d6ff",
       "textarea-primary-color": "#f7f6f4",
+      "gray-er": "#38759e",
+      white: "#fff",
     },
   },
   plugins: [],

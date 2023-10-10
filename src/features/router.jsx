@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import Home from "../components/Home";
-import Calendar from "../components/Calendar";
 import ChatBox from "../components/ChatBox";
 import HouseCleaning from "../components/HouseCleaning";
 import BookingDetail from "../components/BookingDetail";
@@ -38,10 +37,6 @@ const Router = createBrowserRouter([
   {
     path: "review",
     element: <Review />,
-  },
-  {
-    path: "calendar",
-    element: <Calendar />,
   },
 
   {
