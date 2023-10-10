@@ -1,13 +1,17 @@
-import HouseCleaning from "./components/HouseCleaning";
 import { RouterProvider } from "react-router-dom";
 import Router from "./features/router";
 
-function App() {
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+
+function App({ children }) {
   return (
-    <RouterProvider router={Router} />
-    // <>
-    //   {/* <HouseCleaning /> */}
-    // </>
+    <>
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+        {children}
+        <RouterProvider router={Router} />;
+      </LocalizationProvider>
+    </>
   );
 }
 

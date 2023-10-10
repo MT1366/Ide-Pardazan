@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: tahoma-regular;
+  src: url(./assets/fonts/Tahoma-Font/TAHOMA_0.TTF);
+}
+
+* {
+  font-family: tahoma-regular;
+}
