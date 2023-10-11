@@ -1,7 +1,6 @@
 import { HiArrowLeft } from "react-icons/hi2";
 import CleaningItems from "./CleaningItems";
 import Button from "./Button";
-import { Outlet } from "react-router-dom";
 
 import { NavLink } from "react-router-dom";
 
@@ -9,9 +8,10 @@ function HouseCleaning() {
   return (
     <>
       <div className="w-390 h-844 border m-auto mt-8 p-5 gap-5 flex flex-col">
-        <Outlet />
         <div className="flex flex-row items-center gap-2">
-          <HiArrowLeft />
+          <NavLink to="/">
+            <HiArrowLeft />
+          </NavLink>
           <p>House Cleaning</p>
         </div>
         <div>

@@ -19,7 +19,9 @@ function Location() {
     <>
       <div className=" relative w-390 h-844 border m-auto mt-8 flex flex-col">
         <div className="flex flex-row pl-5 pt-3 pb-2 items-center gap-2">
-          <HiArrowLeft />
+          <NavLink to="/addpromo">
+            <HiArrowLeft />
+          </NavLink>
           <p className="font-bold">Your address/Location</p>
         </div>
         <LoadScript

@@ -11,7 +11,9 @@ function Calendar() {
   return (
     <div className="w-390 h-844 border m-auto mt-8 p-5 gap-5 flex flex-col">
       <div className="flex flex-row items-center gap-2">
-        <HiArrowLeft />
+        <NavLink to="/root">
+          <HiArrowLeft />
+        </NavLink>
         <p className="font-bold">Booking Details</p>
       </div>
       <div className="flex flex-col gap-6">

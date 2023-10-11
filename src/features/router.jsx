@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../components/Home";
 import ChatBox from "../components/ChatBox";
 import HouseCleaning from "../components/HouseCleaning";
+import Calendar from "../components/Calendar";
 import BookingDetail from "../components/BookingDetail";
 import AddPromo from "../components/AddPromo";
 import Payment from "../components/Payment";
@@ -21,6 +22,10 @@ const Router = createBrowserRouter([
   {
     path: "bookingdetail",
     element: <BookingDetail />,
+  },
+  {
+    path: "calendar",
+    element: <Calendar />,
   },
   {
     path: "addpromo",

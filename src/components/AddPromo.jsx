@@ -9,7 +9,9 @@ function AddPromo() {
     <div className="w-390 h-844 border m-auto mt-8 p-5 gap-5 flex flex-col">
       <div className="flex flex-row items-center gap-2 justify-between">
         <div className="flex items-center gap-2">
-          <HiArrowLeft />
+          <NavLink to="/calendar">
+            <HiArrowLeft />
+          </NavLink>
           <p className="font-bold">Add Promo</p>
         </div>
         <HiMagnifyingGlass className="text-lg" />
